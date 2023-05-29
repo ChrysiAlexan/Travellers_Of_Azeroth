@@ -1,0 +1,25 @@
+nav {
+    background: #f9f9f9;
+}
+.menuItems
+ {
+      list-style: none;
+      display: flex;
+}
+li {
+    margin: 30px;
+}
+a 
+{
+          text-decoration: none;
+          color: #8f8f8f;
+          font-size: 24px;
+          text-transform: uppercase;
+}
+  
+a:hover{
+            text-decoration: dotted;
+            transition: 0.5s;
+            color: #da2424;
+            transition: all 0.5s ease-in-out;
+}
