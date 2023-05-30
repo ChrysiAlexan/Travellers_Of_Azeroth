@@ -3,25 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Travel Agents</title>
+  <title>Travellers Of Azeroth</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="styles/style.css">
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <link rel = "icon" href = 
+"images/icon.png" 
+        type = "image/x-icon">
 </head>
 <body>
-    <div class="navbar navbar-default">
+    <div id="nav-placeholder">
+
     </div>
-<div class="container">
+
     <main id="main">
+        
         <section class="main-section" id="Home">
-            <div class="maps"><div class="opacity"><h1>Travelers Of Azeroth</h1><p>From Abyssal Depths To Zul'Gurub</p></div></div>        
+            <div class="img">
+            <div class="opacity image">
+                <h1 class="text-center title">Travellers Of Azeroth</h1>
+                <p class="sub-title text-center">From Abyssal Depths To Zul'Gurub</p>
+            </div>  </div>
         </section>
+        
         <section class="main-section" id="TravelPackages">
-            <h1>Remember: a safe flight is a boring flight.</h1>
+            <h1 class=" remember text-center">Remember: a safe flight is a boring flight.</h1>
             <div class="TravelPackages container">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="iron.jpg" alt="Card image cap">
+                   <img class="card-image" src="images/iron.jpg" alt="Ironforge image">
                     <div class="card-body">
                       <h5 class="card-title">Ironforge</h5>
                       <p class="card-text">is the capital city of the dwarves, proud members of the Alliance. It is the one of the oldest cities of Azeroth.</p>
@@ -46,9 +56,18 @@
             <div class="Contact">3</div>        
         </section>
     </main>
-</div>
+    <footer class="bg-light text-center text-lg-start">
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2023 Copyright: 
+    <a class="text-dark" href="#">Chrysi Alexandraki</a>
+  </div>
+</footer>
 
-   
 
+   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+   <script type="text/javascript" src="javascript/main.js"></script>
+   <script type="text/javascript" src="javascript/contact.js"></script>
 </body>
+
 </html>

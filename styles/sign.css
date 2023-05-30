@@ -65,11 +65,26 @@ margin: 0px auto;
 font-size: 1.15rem;  
 }
 
-#body-log{
-    background-image: url("login.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;  
+#body-log
+{
+    background-image: url("../images/login.jpg");
+     width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position-x: center;
+    min-width: fit-content ;
 }
+
+#body-reg
+{
+    background-image: url("../images/register.jpg");
+     width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position-x: center;
+    min-width: fit-content ;
+}
+
 .form-control {  
 display: block;  
 width: -webkit-fill-available;  

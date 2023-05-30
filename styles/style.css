@@ -1,6 +1,34 @@
-.home {
-    width: 100px;
-    height: 100px;
-    background-image: url("./photo.png");
-    background-color: black;
+@font-face {
+  font-family: myFont;
+  src: url(../fonts/Huge_DEMO.ttf);
+}
+
+.img{
+    width: 100%;
+    height: auto;
+    background-image: url("../images/wow.jpg");
+    background-size: cover;
+    background-position-x: center;
+    padding: 25%;
+    min-width: fit-content ;
+}
+.opacity {
+    width: auto;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    min-width: fit-content ;
+    padding:  10%;
+}
+
+.title , .sub-title{
+    color: white;
+}
+.sub-title{
+    margin-top: 20px;
+    font-size: 1.7rem;
+    font-family: myFont;
+}
+
+.remember{
+    margin: 80px;
 }
